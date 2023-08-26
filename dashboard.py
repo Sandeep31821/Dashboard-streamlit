@@ -103,7 +103,7 @@ fig_hourly_sales_pie.update_traces(textposition = 'inside',textinfo="percent+lab
 left_column, middle_column, right_column = st.columns(3)
 left_column.plotly_chart(fig_product_sales, use_container_width=True)
 middle_column.plotly_chart(fig_hourly_sales_pie, use_container_width=True)
-right_column.plotly_chart(fig_hourly_sales, use_container_width=True)
+right_column.plotly_chart(fig_hourly_sales, use_container_width=
 
 
 
